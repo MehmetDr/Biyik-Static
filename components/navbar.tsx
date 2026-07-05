@@ -51,7 +51,9 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="#iletisim"
+            href="https://wa.me/905050653851?text=Merhaba%2C%20teklif%20almak%20istiyorum."
+            target="_blank"
+            rel="noopener noreferrer"
             className={cn(
               buttonVariants({ size: 'lg' }),
               'h-10 bg-accent px-5 text-accent-foreground hover:bg-accent/90',
@@ -89,7 +91,9 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="#iletisim"
+              href="https://wa.me/905050653851?text=Merhaba%2C%20teklif%20almak%20istiyorum."
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className={cn(
                 buttonVariants({ size: 'lg' }),
