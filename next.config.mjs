@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/Biyik-Static',
-  assetPrefix: '/Biyik-Static/',
+  // Vercel kendi optimizasyonlarını otomatik yaptığı için ekstra ayara gerek yok
 };
 
 export default nextConfig;
