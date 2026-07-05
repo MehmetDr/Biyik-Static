@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Menu, X, Factory } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -33,23 +33,8 @@ export function Navbar() {
       )}
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#anasayfa" className="flex items-center gap-2">
-          <span
-            className={cn(
-              'flex h-9 w-9 items-center justify-center rounded-md transition-colors',
-              scrolled ? 'bg-primary text-primary-foreground' : 'bg-accent text-accent-foreground',
-            )}
-          >
-            <Factory className="h-5 w-5" />
-          </span>
-          <span
-            className={cn(
-              'text-lg font-bold tracking-tight transition-colors',
-              scrolled ? 'text-foreground' : 'text-background',
-            )}
-          >
-            Bıyık <span className={scrolled ? 'text-accent' : 'text-accent'}>Sentetik</span>
-          </span>
+        <a href="#anasayfa" className="flex items-center">
+          <img src="/logo.png" alt="Bıyık Statik Logo" className="h-10 md:h-14 w-auto object-contain" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

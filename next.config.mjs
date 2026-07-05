@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
+  // Vercel kendi optimizasyonlarını otomatik yaptığı için ekstra ayara gerek yok
+};
 
-export default nextConfig
+export default nextConfig;

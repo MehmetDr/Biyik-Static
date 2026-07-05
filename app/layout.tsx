@@ -6,10 +6,20 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Bıyık Sentetik Boyama | Endüstriyel Sentetik Boyama Çözümleri',
+  title: 'Bıyık Statik | Endüstriyel Sentetik Boyama Çözümleri',
   description:
     'Endüstriyel yüzeylerde kusursuz sentetik boyama. Yüksek kalite, dayanıklılık ve son teknoloji boyama tesislerimizle sektördeki çözüm ortağınız.',
   generator: 'v0.app',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
+  openGraph: {
+    title: 'Bıyık Statik | Endüstriyel Sentetik Boyama',
+    description:
+      'Endüstriyel yüzeylerde kusursuz sentetik boyama. Yüksek kalite ve dayanıklılık.',
+    images: [{ url: '/logo.png' }],
+  },
 }
 
 export const viewport: Viewport = {

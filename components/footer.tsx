@@ -1,4 +1,4 @@
-import { Factory, MapPin, Phone, Mail } from 'lucide-react'
+import { MapPin, Phone, Mail } from 'lucide-react'
 
 const quickLinks = [
   { label: 'Ana Sayfa', href: '#anasayfa' },
@@ -20,13 +20,14 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="flex h-9 w-9 items-center justify-center rounded-md bg-accent text-accent-foreground">
-                <Factory className="h-5 w-5" />
-              </span>
-              <span className="text-lg font-bold">
-                Bıyık <span className="text-accent">Sentetik</span>
-              </span>
+            <div className="flex items-center">
+              <div className="rounded-xl bg-white px-3 py-2 shadow-md">
+                <img
+                  src="/logo.png"
+                  alt="Bıyık Statik Logo"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
               Temiz işçilik ve dürüst hizmet anlayışıyla sentetik boyama
