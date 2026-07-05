@@ -34,7 +34,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#anasayfa" className="flex items-center">
-          <img src="/logo.png" alt="Bıyık Statik Logo" className="h-10 w-auto md:h-12" />
+          <img src="/logo.png" alt="Bıyık Statik Logo" className="h-10 w-auto md:h-14" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
